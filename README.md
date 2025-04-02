@@ -2,6 +2,13 @@
 
 [![My Skills](https://skillicons.dev/icons?i=vscode,windows,apple)](https://skillicons.dev)
 
+[![Deployment Status](https://api.netlify.com/api/v1/badges/b8f3c7a8-8301-490f-b4ba-2e01b260dd85/deploy-status)](https://app.netlify.com/sites/hunterstevenshaw-com/deploys)
+
+**🌐 [https://github.com/Kasador/hunterstevenshaw-com](https://github.com/Kasador/hunterstevenshaw-com)**
+
+### 🔗🚧 **Development Server**: [https://hunterstevenshaw-com.netlify.app/](https://hunterstevenshaw-com.netlify.app/)
+
+
 ## 🌐 **Portfolio Website**
 
 This repository contains the source code for the development of [hunterstevenshaw.com](https://hunterstevenshaw.com/); my portfolio, built using _npm create vite@latest_ which is the last method for developing within the _ReactJS_ eco-system. My choosen tech stack is designed for simplicity, performance, and ease of content management for future development and maintenance.
@@ -26,25 +33,15 @@ This repository contains the source code for the development of [hunterstevensha
 
 ## ❓ **Why This Tech Stack?**
 
-### ** ReactJS w/ TS & SASS**
+### ⚛️ **ReactJS w/ TS & SASS**
 
-- Ensures modular and reusable code components for easy future updates.
+- Ensures relational targeting for all JSX elements, classes and IDs for easy future updates.
 
-- Tailwind CSS integrates seamlessly into React components, reducing the need for external CSS files and ensuring a unified design.
-
-- No more routing/linking errors for stylesheets; simply a code all-in-one solution for maintaining and updating codebase.
-
-<!-- ### **4. Simplified CSR Workflow**
-
-- Combines Client-Side Rendering (CSR) with Firebase for a fast and lightweight website.
-
-- Avoids the complexity of Server-Side Rendering (SSR), keeping costs and management overhead low, suitable for my portfolio.
-
-- Avoids high upkeep/costs for Server-Side Rending (SSR), which is over-kill for a portfolio. -->
+- SASS/SCSS integrates seamlessly into React components, reducing the lines in an external CSS file and ensuring a unified design.
 
 # 📁 Overview to Project Setup
 
-### **Prerequisites**
+### ⚠️ **Prerequisites**
 
 - Node.js and npm installed.
 
@@ -52,12 +49,16 @@ This repository contains the source code for the development of [hunterstevensha
 
 - Using this article, [freecodecamp.org](https://www.freecodecamp.org/news/how-to-create-a-react-app-in-2024/#:~:text=Create%20React%20App%20has%20been,new%20React%20project%20in%202024.).
 
-### Node Packages Installed (npm)
+### 📦 **Node Packages Installed** _(npm)_
 
 - `npm i react-simple-typewriter` (https://www.npmjs.com/package/react-simple-typewriter)
+
 - `npm i -D sass-embedded` (https://www.npmjs.com/package/sass-embedded)
 
-### References
+- `npm i react-icons` (https://www.npmjs.com/package/react-icons) 
+  - Docs: (https://react-icons.github.io/react-icons/)
+
+### 🗂️ **References/Resources** 
 
 - https://meyerweb.com/eric/tools/css/reset/
 

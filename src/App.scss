@@ -1,7 +1,21 @@
+// Color Scheme 
+$primary-color: #e76768;      // light red
+$secondary-color: #fafad2;    // light yellow
+$accent-color: #353839;       // black
+$gray-color: #e8e8e8;         // light gray;
+$white-color: #ffffff;        // white
+
+// Fonts 
+@font-face {
+  font-family: mainFont;
+  src: url('./assets/fonts/Parkinsans-VariableFont_wght.ttf');
+}
+
 body {
-  // background-color: 
+  background-color: $secondary-color;
+  font-family: mainFont;
 }
 h1 {
-  color: green;
+  color: $primary-color;
   font-size: 5rem;
 }
