@@ -1,5 +1,5 @@
 import './App.scss'
-import Me from './assets/images/me_cartoon_edited.png'
+import Me from './assets/images/me_cartoon_edited_v5.png'
 function App() {
 
   return (
