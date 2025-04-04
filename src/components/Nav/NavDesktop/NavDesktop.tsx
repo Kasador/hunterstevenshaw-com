@@ -1,12 +1,22 @@
+import { FaTree, FaAddressCard, FaFolderOpen } from "react-icons/fa";
+import { RiContactsFill } from "react-icons/ri";
+
 type NavDesktop = {
     title: string;
 }
 
 const NavDesktop : any  = () => {
     return (
-        <nav>
+        <nav id="NavDesktop">
             <ol>
-                <li>Nav Desktop</li>
+                <li>
+                    <FaTree />Home</li>
+                <li>
+                    <FaAddressCard />About</li>
+                <li>
+                    <FaFolderOpen />Projects</li>
+                <li>
+                    <RiContactsFill />Contact</li>
             </ol>
         </nav>
     )
