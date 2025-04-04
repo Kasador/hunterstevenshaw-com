@@ -1,11 +1,22 @@
+/* References >>>
+  1) https://react-typescript-cheatsheet.netlify.app/docs/basic/getting-started/function_components/
+*/
+
+// Styles >>> 
 import './App.scss'
-import Me from './assets/images/me_cartoon_edited_v5.png'
+// Assets >>>
+// import Me from './assets/images/me_cartoon_edited_v5.png'
+// Components >>>
+import Home from "./components/Home/Home"
+import NavDesktop from "./components/Nav/NavDesktop/NavDesktop"
+// import NavDesktop from "./components/Nav/NavDesktop/NavDesktop"
+
 function App() {
 
   return (
     <>
-     <h1>Test</h1>
-     <img src={Me} id="me" />
+     <NavDesktop />
+     <Home />
     </>
   )
 }
