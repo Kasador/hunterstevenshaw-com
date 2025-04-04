@@ -14,10 +14,10 @@ import NavDesktop from "./components/Nav/NavDesktop/NavDesktop"
 function App() {
 
   return (
-    <>
-     <NavDesktop />
-     <Home />
-    </>
+    <div id="App">
+      <NavDesktop />
+      <Home />
+    </div>
   )
 }
 

@@ -7,11 +7,11 @@ type Home = {
 
 const Home : any = () => {
     return (
-        <>
-            <h1>Home</h1>
+        <section id="Home">
             <img src={Me} alt="Hunter Steven Shaw, cartoon hero image" id="me" />
+            <h1>Hunter Shaw</h1>
             <TypeWriter message="TypeWriter"/>
-        </>
+        </section>
     )
 }
 

@@ -14,6 +14,41 @@ $white-color: #ffffff;        // white
 body {
   background-color: $secondary-color;
   font-family: mainFont;
+  width: 100%;
+  height: 100%;
+}
+#App {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+#Home {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 8;
+  height: 100%;
+}
+#NavDesktop {
+  flex-grow: 1;
+  height: 100vh;
+  border-right: 3px solid $accent-color;
+
+  ol {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 2rem;
+    color: $secondary-color;
+
+    li {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding: 1rem;
+    }
+  }
 }
 h1 {
   color: $primary-color;
@@ -22,8 +57,17 @@ h1 {
   padding-bottom: 50px;
 }
 #me {
+  display: flex;
   width: 250px;
   border-radius: 100%;
   display: block;
   margin: 0 auto;
+  border: 3px solid $accent-color;
+  justify-content: center;
+  align-items: center;
+
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+nav {
+  background-color: $primary-color;
 }
