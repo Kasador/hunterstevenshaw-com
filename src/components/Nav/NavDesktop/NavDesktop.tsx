@@ -5,11 +5,11 @@ type NavDesktop = {
     title: string;
 }
 
-const NavDesktop : any  = () => {
+const NavDesktop  = () => {
     return (
         <nav id="NavDesktop">
             <ol>
-                <li>
+                <li className="active">
                     <FaTree />Home</li>
                 <li>
                     <FaAddressCard />About</li>
