@@ -30,6 +30,15 @@ body {
   flex-direction: column;
   height: 100%;
   width: 100%;
+
+  section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100vh;
+  }
 }
 #NavDesktop {
   height: 100vh;
@@ -84,6 +93,7 @@ h1 {
   border: 3px solid $accent-color;
   justify-content: center;
   align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
 
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }

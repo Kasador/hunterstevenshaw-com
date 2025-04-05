@@ -8,9 +8,11 @@ type Home = {
 const Home = () => {
     return (
         <section id="Home">
-            <img src={Me} alt="Hunter Steven Shaw, cartoon hero image" id="me" />
-            <h1>Hunter Shaw</h1>
-            <HeaderText message="TypeWriter"/>
+            <section>
+                <img src={Me} alt="Hunter Steven Shaw, cartoon hero image" id="me" />
+                <h1>HS</h1>
+                <HeaderText message="TypeWriter"/>
+            </section>
         </section>
     )
 }
