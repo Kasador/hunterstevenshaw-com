@@ -52,6 +52,7 @@ body, html {
       position: relative;
     }
     #TypedMessage {
+      display: flex;
       font-size: 2rem;
       padding: 20px;
       font-weight: bold;
@@ -59,13 +60,22 @@ body, html {
       color: white;
       width: auto;
       font-family: Consolas;
-      width: 500px;
+      width: 570px;
       background-color: $accent-color;
       margin: 10px;
       border-radius: 5px;
 
       div {
         text-align: left;
+        padding-left: 15px;
+        width: 100%;
+      }
+      article {
+        // position: absolute;
+        padding-right: 15px;
+        color: #858585;
+        border-right: 2px solid #858585;
+        width: 30px;
       }
     }
   }
