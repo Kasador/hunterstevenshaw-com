@@ -13,6 +13,10 @@
 
 This repository contains the source code for the development of [hunterstevenshaw.com](https://hunterstevenshaw.com/); my portfolio, built using _npm create vite@latest_ which is the last method for developing within the _ReactJS_ eco-system. My choosen tech stack is designed for simplicity, performance, and ease of content management for future development and maintenance.
 
+## 🎨🖌️ **New Code. New Design.**
+
+![Image](https://github.com/user-attachments/assets/f3607242-0d62-489d-8a57-03ef227efcf4)
+
 ## 🛠️ **Tech Stack Overview**
 
 [![My Skills](https://skillicons.dev/icons?i=html,css,js,typescript)](https://skillicons.dev)
