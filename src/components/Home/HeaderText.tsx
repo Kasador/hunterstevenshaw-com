@@ -13,7 +13,7 @@ const handleMessageCompletion = () => {
 }
 
 const HeaderText = () => {
-    const [text, helper] = useTypewriter({
+    const [text] = useTypewriter({
         /* Config */
         words: ['Hello...', "I'm Hunter Shaw"],
         loop: 1,
