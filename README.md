@@ -15,7 +15,7 @@ This repository contains the source code for the development of [hunterstevensha
 
 ## 🎨🖌️ **New Code. New Design.**
 
-![Image](https://github.com/user-attachments/assets/f3607242-0d62-489d-8a57-03ef227efcf4)
+![Image](https://github.com/user-attachments/assets/008dd989-1ff4-4ffc-858f-e5151c547a1b)
 
 ## 🛠️ **Tech Stack Overview**
 
@@ -122,3 +122,20 @@ export default tseslint.config({
 ```
 
 ### 🐛 **Issues/Bugs**
+
+## ⚠️ React Simple Typewriter npm packages does not allow styling on individual words.
+
+- `npm i react-simple-typewriter` effect did not allow me to change colors for indiviudal words, the solution I finally found after hours was to use `dangerouslySetInnerHTML={{ __html: text }} />` in ReactJS.
+  - React becomes aware of the HTML tags and renders them properly.
+  - By wrapping the input string from my text array in `<span>` tags. 
+
+```js
+const [text] = useTypewriter({
+    /* Config */
+    words: ["<span style='color: #5095c4;'>const</span> <span style='color: #dcdcae;'>HunterShaw</span> = <span style='color: #e1cc37;'>()</span> <span style='color: #5095c4;'>=></span> <span style='color: #e1cc37;'>{</span> \n  <span style='color: #c387bc;'>return</span> (\n      <span style='color: #807d75'><</span><span style='color: #5095c4;'>h1</span><span style='color: #807d75'>></span><span style='color: white;'>Web Developer</span><span style='color: #807d75'><&#47;</span><span style='color: #5095c4;'>h1</span><span style='color: #807d75'>></span>\n  <span style='color: #c387bc;'>)</span>\n<span style='color: #e1cc37;'>}</span>;\n\n<span style='color: #c387bc;'>export default</span> <span style='color: #dcdcae;'>HunterShaw</span>"],
+    loop: 1,
+    onLoopDone: handleDone,
+    onType: handleType,
+    typeSpeed: 7
+});
+```

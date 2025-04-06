@@ -47,22 +47,31 @@ body, html {
     z-index: 1;
 
     #HeroContent {
-      padding-top: 6.5rem;
+      padding-top: 5rem;
       z-index: 5;
       position: relative;
     }
     #TypedMessage {
-      font-size: 3rem;
+      font-size: 2rem;
       padding: 20px;
       font-weight: bold;
       text-align: center;
-      color: $accent-color;
+      color: white;
       width: auto;
+      font-family: Consolas;
+      width: 500px;
+      background-color: $accent-color;
+      margin: 10px;
+      border-radius: 5px;
+
+      div {
+        text-align: left;
+      }
     }
   }
   #Me {
     display: flex;
-    width: 250px;
+    width: 200px;
     border-radius: 100%;
     display: block;
     margin: 0 auto;
@@ -122,12 +131,12 @@ body, html {
     }
   }
 }
-h1 {
-  color: $primary-color;
-  font-size: 5rem;
-  text-align: center;
-  padding-bottom: 50px;
-}
+// h1 {
+//   color: $primary-color;
+//   font-size: 5rem;
+//   text-align: center;
+//   padding-bottom: 50px;
+// }
 nav {
   background-color: $primary-color;
 }
