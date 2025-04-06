@@ -73,10 +73,6 @@ body, html {
         text-align: left;
         padding-left: 15px;
         width: 100%;
-
-        #IntroText {
-          font-family: VSCode;
-        }
       }
       article {
         // position: absolute;
@@ -86,6 +82,9 @@ body, html {
         width: 30px;
       }
     }
+  }
+  #IntroText {
+    font-family: VSCode !important;
   }
   #Me {
     display: flex;
