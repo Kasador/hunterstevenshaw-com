@@ -1,0 +1,130 @@
+// Color Scheme 
+$primary-color: #e76768;          // light red
+$secondary-color: #fdfafb;        // light yellow
+$secondary-dark-color: #fafad2;   // light yellow
+$accent-color: #353839;           // black
+$accent-dark-color: #2b2b2b;            // black darker
+$gray-color: #e6e6e7;             // light gray;
+$white-color: #ffffff;            // white
+
+// Fonts 
+@font-face {
+  font-family: mainFont;
+  src: url('./assets/fonts/Parkinsans-VariableFont_wght.ttf');
+}
+
+// Styles 
+body, html {
+  background-color: $secondary-color;
+  font-family: mainFont;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+#App {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+
+  main {
+    margin-left: 250px;
+  }
+}
+
+#Home {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+
+  section {
+    display: flex;
+    flex-direction: column;
+    // justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    z-index: 1;
+
+    #HeroContent {
+      padding-top: 120px;
+      z-index: 5;
+      position: relative;
+    }
+    #TypedMessage {
+      font-size: 3rem;
+      padding: 20px;
+      font-weight: bold;
+    }
+  }
+  #Me {
+    display: flex;
+    width: 250px;
+    border-radius: 100%;
+    display: block;
+    margin: 0 auto;
+    border: 3px solid $accent-color;
+    justify-content: center;
+    align-items: center;
+  
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  #BottomHero {
+    width: 90%;
+    position: absolute;
+    object-fit: contain;
+    bottom: 0px;
+    overflow-x: hidden;
+    z-index: 1;
+  }
+}
+#NavDesktop {
+  height: 100vh;
+  border-right: 3px solid $accent-color;
+  width: 250px;
+  position: fixed;
+  left: 0;
+  z-index: 3;
+
+  ol {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 2rem;
+    color: $secondary-color;
+
+    li {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding: 1rem 2rem;
+      border-top-left-radius: 50px;
+      border-bottom-left-radius: 50px;
+
+      cursor: pointer;
+
+      &:hover {
+        background-color: $secondary-color;
+        color: $accent-dark-color;
+        box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+
+        transition: all 0.3s;
+      }
+    }
+    .active {
+      background-color: $accent-color;
+      box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    }
+  }
+}
+h1 {
+  color: $primary-color;
+  font-size: 5rem;
+  text-align: center;
+  padding-bottom: 50px;
+}
+nav {
+  background-color: $primary-color;
+}
