@@ -1,10 +1,32 @@
-type TypeWriterProps = {
-    message?: string
+import { useEffect } from 'react';
+import { useTypewriter, Cursor } from 'react-simple-typewriter'
+useEffect
+// https://www.npmjs.com/package/react-simple-typewriter
+
+// type TypeWriterProps = {
+//     message?: string
+// }
+
+const handleMessageCompletion = () => {
+    alert('Message is done!');
+    console.log('Message is done!');
 }
 
-const HeaderText = ({message}: TypeWriterProps) => {
+const HeaderText = () => {
+    const [text, helper] = useTypewriter({
+        /* Config */
+        words: ['Hello...', "I'm Hunter Shaw"],
+        loop: 1,
+        onLoopDone: () => handleMessageCompletion()
+    });
+
+    // const { isType, isDelete, isDelay, isDone } = helper
+
     return (
-        <h1 id="TypedMessage">{message}</h1>
+        <div id="TypedMessage">
+            <span>{text}</span>
+            <Cursor cursorBlinking={true} />
+        </div>
     )
 }
 

@@ -14,7 +14,7 @@ const Home = () => {
             <section>
                 <div id="HeroContent">
                     <img src={Me} alt="Hunter Steven Shaw, but in cartoon version" id="Me" />
-                    <HeaderText message="Hunter Shaw" />
+                    <HeaderText />
                 </div>
                 <img src={Test} alt="Mountain & Pine Trees Graphic" id="BottomHero" />
             </section>
