@@ -39,7 +39,7 @@ const HeaderText = () => {
 
     const [text] = useTypewriter({
         /* Config */
-        words: ["<span style='color: #5095c4;'>const</span> <span style='color: #dcdcae;'>HunterShaw</span> = <span style='color: #e1cc37;'>()</span> <span style='color: #5095c4;'>=></span> <span style='color: #e1cc37;'>{</span> \n  <span style='color: #c387bc;'>return</span> (\n      <span style='color: #807d75'><</span><span style='color: #5095c4;'>h1</span><span style='color: #807d75'>></span><span style='color: white;'>Web Developer</span><span style='color: #807d75'><&#47;</span><span style='color: #5095c4;'>h1</span><span style='color: #807d75'>></span>\n  <span style='color: #c387bc;'>)</span>\n<span style='color: #e1cc37;'>}</span>;\n\n<span style='color: #c387bc;'>export default</span> <span style='color: #dcdcae;'>HunterShaw</span>"],
+        words: ["<span style='color: #5095c4;'>const</span> <span style='color: #dcdcae;'>HunterShaw</span> = <span style='color: #e1cc37;'>()</span> <span style='color: #5095c4;'>=></span> <span style='color: #e1cc37;'>{</span> \n  <span style='color: #c387bc;'>return</span> (\n      <span style='color: #807d75'><</span><span style='color: #5095c4;'>h1</span><span style='color: #807d75'>></span><span style='color: white;'>Web Developer</span><span style='color: #807d75'><&#47;</span><span style='color: #5095c4;'>h1</span><span style='color: #807d75'>></span>\n  <span style='color: #c387bc;'>)</span>\n<span style='color: #e1cc37;'>}</span>;\n<span style='color: #6a9441;'>// Real Code. Real Solutions. </span>\n<span style='color: #c387bc;'>export default</span> <span style='color: #dcdcae;'>HunterShaw</span>"],
         loop: 1,
         onLoopDone: handleDone,
         onType: handleType,
@@ -58,6 +58,9 @@ const HeaderText = () => {
         <div id="TypedMessage">
             {/* <span >{text}</span><span style={{color: '#64a975', fontFamily: 'Consolas', fontWeight: 'bold'}}>{name}</span>
             <Cursor cursorBlinking={true} /> */}
+            <article>
+                <span>23 24 25 26 27 28 29</span>
+            </article>
             <div>
                 <span id="IntroText" style={{color: 'white', fontFamily: 'Consolas', fontWeight: 'bold', whiteSpace: 'pre'}} dangerouslySetInnerHTML={{ __html: text }} />
                 {bar && <Cursor cursorBlinking={true} />}

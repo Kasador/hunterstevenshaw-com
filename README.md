@@ -15,7 +15,7 @@ This repository contains the source code for the development of [hunterstevensha
 
 ## 🎨🖌️ **New Code. New Design.**
 
-![Image](https://github.com/user-attachments/assets/008dd989-1ff4-4ffc-858f-e5151c547a1b)
+![Image](https://github.com/user-attachments/assets/c364c72d-b59e-4fad-a283-fc1808c6f5cf)
 
 ## 🛠️ **Tech Stack Overview**
 
@@ -132,7 +132,7 @@ export default tseslint.config({
 ```js
 const [text] = useTypewriter({
     /* Config */
-    words: ["<span style='color: #5095c4;'>const</span> <span style='color: #dcdcae;'>HunterShaw</span> = <span style='color: #e1cc37;'>()</span> <span style='color: #5095c4;'>=></span> <span style='color: #e1cc37;'>{</span> \n  <span style='color: #c387bc;'>return</span> (\n      <span style='color: #807d75'><</span><span style='color: #5095c4;'>h1</span><span style='color: #807d75'>></span><span style='color: white;'>Web Developer</span><span style='color: #807d75'><&#47;</span><span style='color: #5095c4;'>h1</span><span style='color: #807d75'>></span>\n  <span style='color: #c387bc;'>)</span>\n<span style='color: #e1cc37;'>}</span>;\n\n<span style='color: #c387bc;'>export default</span> <span style='color: #dcdcae;'>HunterShaw</span>"],
+    words: ["<span style='color: #5095c4;'>const</span> <span style='color: #dcdcae;'>HunterShaw</span> = <span style='color: #e1cc37;'>()</span> <span style='color: #5095c4;'>=></span> <span style='color: #e1cc37;'>{</span> \n  <span style='color: #c387bc;'>return</span> (\n      <span style='color: #807d75'><</span><span style='color: #5095c4;'>h1</span><span style='color: #807d75'>></span><span style='color: white;'>Web Developer</span><span style='color: #807d75'><&#47;</span><span style='color: #5095c4;'>h1</span><span style='color: #807d75'>></span>\n  <span style='color: #c387bc;'>)</span>\n<span style='color: #e1cc37;'>}</span>;\n<span style='color: #6a9441;'>// Real Code. Real Solutions. </span>\n<span style='color: #c387bc;'>export default</span> <span style='color: #dcdcae;'>HunterShaw</span>"],
     loop: 1,
     onLoopDone: handleDone,
     onType: handleType,
