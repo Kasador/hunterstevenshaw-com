@@ -13,7 +13,6 @@ import NavDesktop from "./components/Nav/NavDesktop/NavDesktop"
 // import NavDesktop from "./components/Nav/NavDesktop/NavDesktop"
 
 function App() {
-
   return (
     <div id="App">
       <NavDesktop />
