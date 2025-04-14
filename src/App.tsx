@@ -8,6 +8,7 @@ import './App.scss'
 // import Me from './assets/images/me_cartoon_edited_v5.png'
 // Components >>>
 import Home from "./components/Home/Home"
+import About from "./components/About/About"
 import NavDesktop from "./components/Nav/NavDesktop/NavDesktop"
 // import NavDesktop from "./components/Nav/NavDesktop/NavDesktop"
 
@@ -18,6 +19,7 @@ function App() {
       <NavDesktop />
       <main>
         <Home />
+        <About />
       </main>
     </div>
   )
