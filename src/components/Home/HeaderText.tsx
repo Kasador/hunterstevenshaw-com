@@ -1,5 +1,6 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useTypewriter, Cursor } from 'react-simple-typewriter'
+import Utils from '../../utils/Utils'
 /* References >>>
     1) https://www.npmjs.com/package/react-simple-typewriter
     2) https://medium.com/@luda9/how-to-use-react-simple-typewriter-945eef9d9d3d
@@ -19,6 +20,9 @@ const HeaderText = () => {
     const [bar, setBar] = useState(true);
     const [slash, setSlash] : any = useState(false);
     // const [typed, setTyped] : any = useState(0)
+    useEffect(() => {
+        handleEventListener();
+    },[]) // empty array, run once
 
     const handleDone = () => {
         setTimeout(() => {
@@ -30,6 +34,10 @@ const HeaderText = () => {
 
         console.log('Typing is done!')
     };
+
+    const handleEventListener = () => {
+        Utils();
+    }
 
     const handleType = () => {
         console.log('typing...')
