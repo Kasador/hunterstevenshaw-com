@@ -179,3 +179,33 @@ body, html {
 nav {
   background-color: $primary-color;
 }
+
+
+
+// Media Queries
+@media screen and (max-width: 950px) { // 950px
+  #App {
+    main {
+      margin-left: 0px;
+    }
+  }
+  #NavDesktop {
+    display: none;
+  }
+}
+@media screen and (max-width: 700px) { // 700px
+  #Home {
+    #TypedMessage {
+      width: 450px;
+      font-size: 1.5rem;
+    }
+  }
+}
+@media screen and (max-width: 550px) { // 550px
+  #Home {
+    #TypedMessage {
+      width: 350px;
+      font-size: 1.0rem;
+    }
+  }
+}
